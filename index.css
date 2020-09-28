@@ -1,0 +1,53 @@
+/*
+  .COLORITOS {
+    color: #4d004b;
+    color: #810f7c;
+    color: #88419d;
+    color: #8c6bb1;
+    color: #8c96c6;
+    color: #9ebcda;
+    color: #bfd3e6;
+    color: #e0ecf4;
+    color: #f7fcfd;
+
+  }*/
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  justify-content: center;
+  font-family: 'Arial';
+}
+
+.state {
+  /* stroke: #333;
+  stroke-width: 2; */
+}
+
+#map {
+  background-color: silver;
+}
+
+.noShow {
+    visibility: hidden;
+    position: absolute;
+}
+
+.show {
+    position: absolute;
+    visibility: visible;
+    font-size: 10;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: .85;
+}
+
+#legend {
+  position: absolute;
+  fill: black;
+}
